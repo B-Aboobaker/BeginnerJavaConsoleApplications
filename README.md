@@ -25,14 +25,12 @@ Palindrome is a word, verse, or sentence (such as "Able was I ere I saw Elba") o
 <img src="assets/images/Palindrome2.png" alt="Palindrome image 2">
 
 
-
 ## Lottery Game
 ### Overview
 Create a lottery game application. Generate three random numbers, each between 0 and 9. Allow the user to guess three numbers. Compare each of the user’s guesses to the three random numbers and display a message that includes the user’s guess, the randomly determined three-digit number, and the amount of money the user has won as follows: <br>
 <img src="assets/images/Lottery1.png" alt="">
  
 Make certain that your application accommodates repeating digits. For example, if a user guesses 1, 2, and 3, and the randomly generated digits are 1, 1, and 1, do not give the user credit for three correct guesses—just one.
-
 
 ### Demonstrating functionality:
 <img src="assets/images/Lottery2.png" alt="">
@@ -41,7 +39,35 @@ Make certain that your application accommodates repeating digits. For example, i
 
 ## Exam Enterence Calculator
 ### Overview
+Write a Java console application for an Exam Entrance Calculator that allows a user to input the name of a module and the marks obtained in its three formative assessments (each worth 16.66%). The application should then calculate the student's semester mark and output whether the student has qualified to write the exam or not. Use constants to store the weight of each assessment. The pass mark for the module to write an exam is 30%. 
+<br><br>
+Use the following examples to achieve your App: <br>
+If a user has the following marks: <br>
+FA1 = 65% <br>
+FA2= 34% <br>
+FA3 = 25% <br>
+<br>
+You need to convert the mark received to the weight of the assessments. <br>
+FA1 = 65 / 100 * 16.66 <br>
+FA2 = 34 / 100 * 16.66 <br>
+FA3 = 25 / 100 * 16.66 <br>
+<br>
+These should be your implementation. <br>
+Calculations: Assuming you have a variable name as follows: <br>
+finalMark: FA1 + HA2 + FA3 <br>
+Then use the final mark to determine if the student has qualified or not. <br>
+<br>
+Your application should display the following prompts to the user: <br>
+"Please enter the name of the module: " <br>
+"Please enter the mark for Formative Assessment 1 (out of 100): " <br>
+"Please enter the mark for Formative Assessment 2 (out of 100): " <br>
+"Please enter the mark for Formative Assessment 3 (out of 100): " <br>
+<br>
+Assume that the user enters valid integer marks for each assessment. <br>
+Display an appropriate message for the two conditions, if the student gets 30% or more display “Congratulations you have qualified to write an exam” if not “You did not meet the qualifying criteria, you have failed your module” 
 
+### Demonstrating functionality:
+<img src="assets/images/ExamEnterenceCalculator1.png" alt="">
 
 
 ## Marks Application
