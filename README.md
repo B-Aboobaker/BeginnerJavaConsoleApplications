@@ -9,8 +9,8 @@ This repository showcases small Java console applications that I have worked on 
 - [Context](#context)
 - [Table of Contents](#table-of-contents)
 - [Palindrome Checker](#palindrome-checker)
-- [Exam Enterence Calculator](#exam-enterence-calculator)
 - [Lottery Game](#lottery-game)
+- [Exam Enterence Calculator](#exam-enterence-calculator)
 - [Marks Application](#marks-application)
 - [Banking App](#jd521fa1-banking-app)
 
@@ -26,29 +26,22 @@ Palindrome is a word, verse, or sentence (such as "Able was I ere I saw Elba") o
 
 
 
-## Exam Enterence Calculator
-### Overview
-
-
-
 ## Lottery Game
 ### Overview
-Create a lottery game application. Generate three random numbers, each between 0 and 9. Allow the user to guess three numbers. <br>
-Compare each of the user’s guesses to the three random numbers and display a message that includes the user’s guess, the randomly determined three-digit number, and the amount of money the user has won as follows: <br>
+Create a lottery game application. Generate three random numbers, each between 0 and 9. Allow the user to guess three numbers. Compare each of the user’s guesses to the three random numbers and display a message that includes the user’s guess, the randomly determined three-digit number, and the amount of money the user has won as follows: <br>
 <img src="assets/images/Lottery1.png" alt="">
  
 Make certain that your application accommodates repeating digits. For example, if a user guesses 1, 2, and 3, and the randomly generated digits are 1, 1, and 1, do not give the user credit for three correct guesses—just one.
 
 
 ### Demonstrating functionality
-#### No matches:
-<img src="assets/images/Lottery2.png" alt="" width="500px">
+<img src="assets/images/Lottery2.png" alt="">
 
-#### Any one matching:
-<img src="assets/images/Lottery3.png" alt="" width="500px">
 
-#### Two matching:
-<img src="assets/images/Lottery4.png" alt="" width="500px">
+
+## Exam Enterence Calculator
+### Overview
+
 
 
 ## Marks Application
