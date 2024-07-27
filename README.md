@@ -39,75 +39,90 @@ Create a basic Java Application that will help CTU banking clients to perform ba
 
 ### Demonstrating functionality
 #### First run of the application - Menu with all required options:
-
+<img src="assets/images/Bank1.png" alt="">
 
 #### Program correctly performs deposits:
+<img src="assets/images/Bank2.png" alt="">
 
 
 #### Program correctly performs savings:
-a. 
+a. <br> <img src="assets/images/Bank3_1.png" alt="">
 
 
-b. 
+b. <br> <img src="assets/images/Bank3_2.png" alt="">
 
 
 #### Program correctly performs withdrawals:
+<img src="assets/images/Bank4.png" alt="">
 
 
 #### Program correctly exits when selected:
+<img src="assets/images/Bank5.png" alt="">
 
 
 
 ### Demonstrating input validation
-#### Program properly validates input for deposit amounts:
-If the user inputs a negative number or text, an error message will be displayed
+#### Program properly validates input for deposit amounts
+If the user inputs a negative number or text, an error message will be displayed: <br>
+<img src="assets/images/Bank6.png" alt="">
 
 
 
-#### Program properly validates input for savings amounts:
-a. For the savings amount, if the user inputs a negative number, an error message will be displayed
+#### Program properly validates input for savings amounts
+a. For the savings amount, if the user inputs a negative number, an error message will be displayed: <br>
+<img src="assets/images/Bank7_1.png" alt="">
 
 
-b. For the savings amount, if the user inputs some text, an error message will be displayed
+b. For the savings amount, if the user inputs some text, an error message will be displayed: <br>
+<img src="assets/images/Bank7_2.png" alt="">
 
 
-c. For the number of months, if the user inputs a negative number or some text, an error message will be displayed
+c. For the number of months, if the user inputs a negative number or some text, an error message will be displayed: <br>
+<img src="assets/images/Bank7_3.png" alt="">
 
 
-#### Program properly validates input for withdrawal amounts:
-a. If the user wants to withdraw an amount that is greater than their account balance, an error message will be displayed
+#### Program properly validates input for withdrawal amounts
+a. If the user wants to withdraw an amount that is greater than their account balance, an error message will be displayed: <br>
+<img src="assets/images/Bank8_1.png" alt="">
 
 
-b. If the user inputs a negative number or some text, an error message will be displayed
+b. If the user inputs a negative number or some text, an error message will be displayed: <br>
+<img src="assets/images/Bank8_2.png" alt="">
+
 
 ### Demonstrating output clarity
 #### Program provides clear instructions for user input:
+<img src="assets/images/Bank9.png" alt="">
 
 
 #### Program outputs clear messages for successful deposits:
+<img src="assets/images/Bank10.png" alt="">
 
 
 #### Program outputs clear messages for successful savings:
+<img src="assets/images/Bank11.png" alt="">
 
 
 #### Program outputs clear messages for successful withdrawals:
+<img src="assets/images/Bank12.png" alt="">
 
 
-### Demonstrating creativity:
-#### Program includes additional features beyond the basic requirements:
-a. With option ‘A’, the user can Check their account balance
+### Demonstrating creativity
+#### Program includes additional features beyond the basic requirements
+a. With option ‘A’, the user can Check their account balance: <br>
+<img src="assets/images/Bank13_1.png" alt="">
 
 
-b. With option ‘E’, the use can check their Previous transaction
+b. With option ‘E’, the use can check their Previous transaction: <br>
+<img src="assets/images/Bank13_2.png" alt="">
 
 
-c. Balance starts at R0 (no money in the account)
+c. Balance starts at R0 (no money in the account): <br>
+<img src="assets/images/Bank13_3.png" alt="">
 
 
-d. The users Previous transaction is null if no transactions have taken place
-
-
-
+d. The users Previous transaction is null if no transactions have taken place: <br>
+<img src="assets/images/Bank13_4.png" alt="">
 
 
 
