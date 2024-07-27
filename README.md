@@ -98,13 +98,13 @@ b. If the user inputs a negative number or some text, an error message will be d
 a. With option ‘A’, the user can Check their account balance
 
 
-b. With option ‘E’, the use can check their Previous transaction:
+b. With option ‘E’, the use can check their Previous transaction
 
 
-c. Balance starts at R0 (no money in the account):
+c. Balance starts at R0 (no money in the account)
 
 
-d. The users Previous transaction is null if no transactions have taken place:
+d. The users Previous transaction is null if no transactions have taken place
 
 
 
