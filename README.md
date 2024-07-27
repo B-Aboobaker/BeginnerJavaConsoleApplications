@@ -42,13 +42,13 @@ Make certain that your application accommodates repeating digits. For example, i
 
 ### Demonstrating functionality
 #### No matches:
-<img src="assets/images/Lottery2.png" alt="">
+<img src="assets/images/Lottery2.png" alt="" width="500px">
 
 #### Any one matching:
-<img src="assets/images/Lottery3.png" alt="">
+<img src="assets/images/Lottery3.png" alt="" width="500px">
 
 #### Two matching:
-<img src="assets/images/Lottery4.png" alt="">
+<img src="assets/images/Lottery4.png" alt="" width="500px">
 
 
 ## Marks Application
