@@ -20,10 +20,10 @@ This repository showcases small Java console applications that I have worked on 
 ### Overview
 Palindrome is a word, verse, or sentence (such as "Able was I ere I saw Elba") or a number (such as 1881) that reads the same backward or forward. Create a Java application to check if a number provided by the user is a Palindrome or not. Give appropriate messages to the user. <br>
 See sample output: <br>
-<img src="assets/images/Palindrome1" alt="Palindrome image 1">
+<img src="assets/images/Palindrome1.png" alt="Palindrome image 1">
 
 ### Demonstrating functionality:
-<img src="assets/images/Palindrome2" alt="Palindrome image 2">
+<img src="assets/images/Palindrome2.png" alt="Palindrome image 2">
 
 
 
