@@ -33,8 +33,22 @@ Palindrome is a word, verse, or sentence (such as "Able was I ere I saw Elba") o
 
 ## Lottery Game
 ### Overview
+Create a lottery game application. Generate three random numbers, each between 0 and 9. Allow the user to guess three numbers. <br>
+Compare each of the user’s guesses to the three random numbers and display a message that includes the user’s guess, the randomly determined three-digit number, and the amount of money the user has won as follows: <br>
+<img src="assets/images/Lottery1.png" alt="">
+ 
+Make certain that your application accommodates repeating digits. For example, if a user guesses 1, 2, and 3, and the randomly generated digits are 1, 1, and 1, do not give the user credit for three correct guesses—just one.
 
 
+### Demonstrating functionality
+#### No matches:
+<img src="assets/images/Lottery2.png" alt="">
+
+#### Any one matching:
+<img src="assets/images/Lottery3.png" alt="">
+
+#### Two matching:
+<img src="assets/images/Lottery4.png" alt="">
 
 
 ## Marks Application
