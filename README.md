@@ -72,7 +72,7 @@ Create a basic Java Application that will help CTU banking clients to perform ba
 <img src="assets/images/Bank2.png" alt="">
 
 #### Program correctly performs savings:
-a. <br> <img src="assets/images/Bank3_1.png" alt="">
+a. <img src="assets/images/Bank3_1.png" alt=""> <br>
 b. <br> <img src="assets/images/Bank3_2.png" alt="">
 
 #### Program correctly performs withdrawals:
