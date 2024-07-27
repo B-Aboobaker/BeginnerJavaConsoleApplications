@@ -2,7 +2,8 @@
 This repository showcases small Java console applications for beginners
 
 ## Context
-This repository showcases small Java console applications that I have worked on and completed.
+This repository contains various small Java console applications designed for beginners to practice and learn fundamental programming concepts. Each project includes an overview, a brief description of its functionality, and sample outputs to demonstrate how the applications work.
+
 
 ## Table of Contents
 - [Beginner Java Console Applications](#beginnerjavaconsoleapplications)
@@ -15,9 +16,10 @@ This repository showcases small Java console applications that I have worked on 
 - [Banking App](#jd521fa1-banking-app)
 
 
+
 ## Palindrome Checker
 ### Overview
-Palindrome is a word, verse, or sentence (such as "Able was I ere I saw Elba") or a number (such as 1881) that reads the same backward or forward. Create a Java application to check if a number provided by the user is a Palindrome or not. Give appropriate messages to the user. <br>
+A palindrome is a word, phrase, number, or other sequences of characters that reads the same forward and backward. This application checks if a number provided by the user is a palindrome. <br>
 #### See sample output:
 <img src="assets/images/Palindrome1.png" alt="Palindrome image 1">
 
@@ -25,12 +27,12 @@ Palindrome is a word, verse, or sentence (such as "Able was I ere I saw Elba") o
 <img src="assets/images/Palindrome2.png" alt="Palindrome image 2">
 
 
+
 ## Lottery Game
 ### Overview
-Create a lottery game application. Generate three random numbers, each between 0 and 9. Allow the user to guess three numbers. Compare each of the user’s guesses to the three random numbers and display a message that includes the user’s guess, the randomly determined three-digit number, and the amount of money the user has won as follows: <br>
+This application simulates a lottery game. It generates three random numbers between 0 and 9, and the user guesses three numbers. The application compares the user's guesses with the generated numbers and calculates the winnings.<br>
 <img src="assets/images/Lottery1.png" alt="">
- 
-Make certain that your application accommodates repeating digits. For example, if a user guesses 1, 2, and 3, and the randomly generated digits are 1, 1, and 1, do not give the user credit for three correct guesses—just one.
+
 
 ### Demonstrating functionality:
 <img src="assets/images/Lottery2.png" alt="">
@@ -39,72 +41,40 @@ Make certain that your application accommodates repeating digits. For example, i
 
 ## Exam Enterence Calculator
 ### Overview
-Write a Java console application for an Exam Entrance Calculator that allows a user to input the name of a module and the marks obtained in its three formative assessments (each worth 16.66%). The application should then calculate the student's semester mark and output whether the student has qualified to write the exam or not. Use constants to store the weight of each assessment. The pass mark for the module to write an exam is 30%. 
-<br><br>
-Use the following examples to achieve your App: <br>
-If a user has the following marks: <br>
-FA1 = 65% <br>
-FA2= 34% <br>
-FA3 = 25% <br>
-<br>
-You need to convert the mark received to the weight of the assessments. <br>
-FA1 = 65 / 100 * 16.66 <br>
-FA2 = 34 / 100 * 16.66 <br>
-FA3 = 25 / 100 * 16.66 <br>
-<br>
-These should be your implementation. <br>
-Calculations: Assuming you have a variable name as follows: <br>
-finalMark: FA1 + HA2 + FA3 <br>
-Then use the final mark to determine if the student has qualified or not. <br>
-<br>
-Your application should display the following prompts to the user: <br>
-"Please enter the name of the module: " <br>
-"Please enter the mark for Formative Assessment 1 (out of 100): " <br>
-"Please enter the mark for Formative Assessment 2 (out of 100): " <br>
-"Please enter the mark for Formative Assessment 3 (out of 100): " <br>
-<br>
-Assume that the user enters valid integer marks for each assessment. <br>
-Display an appropriate message for the two conditions, if the student gets 30% or more display “Congratulations you have qualified to write an exam” if not “You did not meet the qualifying criteria, you have failed your module” 
+This application calculates a student's eligibility to sit for an exam based on their formative assessment marks. The pass mark to qualify for the exam is 30%.
+
+#### Calculation Example:
+- **FA1**: 65%
+- **FA2**: 34%
+- **FA3**: 25%
+
+Using the formula: `(FA1 + FA2 + FA3) * 16.66 / 100`, the final mark determines if the student qualifies.
 
 ### Demonstrating functionality:
 <img src="assets/images/ExamEnterenceCalculator1.png" alt="">
 
 
+
 ## Marks Application
 ### Overview
-You have been tasked by CTU training solutions to develop a Marks Application for the Facilitators using Java programming language, that will allow facilitators to maintain student’s marks during exams. The application will show students' reports per module, including the marks, class average, lowest marks, highest marks, and a mark distribution bar chart. 
-
-- The use of a two-dimensional array should be used to store students’ marks for several tests
-- The use of a constructor should be used to initialize course names and marks
-- The use methods (minimum 5) should be used to implement the functionality of the application, including set and get methods
-- All calculations (average, Lowest, and highest mark) should be calculated based on the student marks
-- The mark distribution should be precise as the student marks
-- The application running without errors/ Use of comments in the coding
+Developed for CTU Training Solutions, this application manages student marks during exams. It includes functionalities like displaying student reports per module, calculating averages, finding the highest and lowest marks, and presenting a mark distribution chart.
 
 ### Demonstrating functionality:
 <img src="assets/images/Marks1.png" alt="">
 
 
+
 ## JD521FA1 (Banking App)
 ### Overview
-CTU Training Solutions has launched a new online bank, and you have been assigned to develop a Java application to facilitate banking transactions. The application should enable users to deposit and withdraw funds, as well as save and earn interest based on the duration and amount of their savings. 
-To calculate the interest earned by users' savings, the following table should be implemented: 
+This application, developed for CTU Training Solutions' new online bank, facilitates basic banking transactions such as deposits, withdrawals, and savings. It also calculates interest based on savings amount and duration.
 
+#### Interest Rate Table:
 | Savings Amount Range | Savings Duration | Interest Rate |
 |----------------------|------------------|---------------|
 | R100 to R500         | 1 month          | 0.5%          |
 | R600 to R1000        | 1 month          | 2%            |
 | Over R1000           | 1 month          | 5%            |
 
-When the client saves money, the table above in the scenario must be used to perform calculations.
-
-
-Create a basic Java Application that will help CTU banking clients to perform basic transactions. The Application should meet the following menu requirements: 
-- Display all account details
-- Deposit the amount
-- Save the amount
-- Withdraw the amount
-- Exit
 
 ### Demonstrating functionality
 #### First run of the application - Menu with all required options:
