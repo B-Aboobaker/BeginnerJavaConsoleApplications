@@ -11,7 +11,6 @@ This repository showcases small Java console applications that I have worked on 
 - [Palindrome Checker](#palindrome-checker)
 - [Exam Enterence Calculator](#exam-enterence-calculator)
 - [Lottery Game](#lottery-game)
-
 - [Marks Application](#marks-application)
 - [Banking App](#jd521fa1-banking-app)
 
@@ -19,7 +18,7 @@ This repository showcases small Java console applications that I have worked on 
 ## Palindrome Checker
 ### Overview
 Palindrome is a word, verse, or sentence (such as "Able was I ere I saw Elba") or a number (such as 1881) that reads the same backward or forward. Create a Java application to check if a number provided by the user is a Palindrome or not. Give appropriate messages to the user. <br>
-See sample output: <br>
+#### See sample output:
 <img src="assets/images/Palindrome1.png" alt="Palindrome image 1">
 
 ### Demonstrating functionality:
