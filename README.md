@@ -13,7 +13,7 @@ This repository contains various small Java console applications designed for be
 - [Lottery Game](#lottery-game)
 - [Exam Enterence Calculator](#exam-enterence-calculator)
 - [Marks Application](#marks-application)
-- [Banking App](#jd521fa1-banking-app)
+- [JD521FA1 (Banking App)](#jd521fa1-banking-app)
 
 
 
